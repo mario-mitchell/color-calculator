@@ -8,11 +8,11 @@ if (choice === "construct") {
     let color1 = (prompt("Pick the first color you want combined: "));
     let color2 = (prompt("Pick the second color you want combined: "));
     if ((color1 === "red" && color2 === "blue") || (color1 === "blue" && color2 === "red")) {
-        console.log("Red and Blue mix to make Purple")
+        console.log("Red and Blue together to make Purple")
     } else if ((color1 === "red" && color2 === "yellow") || (color1 === "yellow" && color2 === "red")) {
-        console.log("Red and Yellow mix to make Orange")
+        console.log("Red and Yellow together to make Orange")
     } else if ((color1 === "blue" && color2 === "yellow") || (color1 === "yellow" && color2 === "blue")) {
-        console.log("Blue and Yellow mix to make Green")
+        console.log("Blue and Yellow together to make Green")
     } else console.log("Error!")
     //Constructor
 } else if (choice === "deconstruct") {
